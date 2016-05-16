@@ -47,7 +47,7 @@ public class NewsFeed
      * 
      * @message the group to introduce
      */
-    public void addPhotoPost(JoinGroupPost group)
+    public void addJoinGroupPost(JoinGroupPost group)
     {
         groups.add(group);
     }
