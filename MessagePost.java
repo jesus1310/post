@@ -41,18 +41,4 @@ public class MessagePost extends Post
     public void addComment(String text){
         comments.add(text);
     }
-
-    /**
-     * Método para unir los comentarios al display de la clase Post
-     */
-    public void mostrarComentarios(){
-        String comentarios = "";
-        if(comments.size() != 0)
-            for(int i=0; i<comments.size(); i++)
-                comentarios += comments.get(i) + "\n_____________________\n";
-        else
-            comentarios += "Sin comentarios";
-        display();
-        System.out.println(comentarios);
-    }
 }

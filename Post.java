@@ -60,6 +60,7 @@ public class Post
         info += username + "\n=====================\n" + "Posted: ";
         info += timeString(time);
         info += "_____________________\nLikes: " + likes + "\n=====================\n\n";
+        System.out.println(info);
     }
     
     /**
